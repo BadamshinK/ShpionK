@@ -1,0 +1,18 @@
+.
+├── cat1
+│   ├── cat2
+│   │   └── cat5
+│   ├── cat3
+│   │   └── cat4
+│   └── cat8
+├── current_date
+├── dir
+├── FileLab2
+├── Lab2
+├── link1
+└── ShpionK
+    ├── FileLab1
+    ├── Lab1
+    └── README.md
+
+8 directories, 7 files

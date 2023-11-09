@@ -1,0 +1,34 @@
+mkdir cat1
+cd cat1
+mkdir cat2
+mkdir cat3
+mkdir cat8
+cd cat2
+mkdir cat3
+mkdir cat5
+cd cat3
+mkdir cat6
+mkdir cat7
+cd ~
+cd cat1
+cd cat3
+mkdir cat4
+cd -
+cd cat8
+ln -s cat6 Link1
+cd -
+cd cat2
+rm -R cat3
+cd -
+cd cat8
+rm Link1
+cd ~
+mkdir dir
+cd dir
+date >> date
+cd ~
+ln -s date Link1
+cd dir
+mv date current_date 
+mv current_date ~
+tree >> FileLab2
